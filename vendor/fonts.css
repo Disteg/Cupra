@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Сupra";
+    src: url("./fonts/Cupra-Bold.woff") format("woff");
+    src: url("./fonts/Cupra-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cupra";
+    src: url("./fonts/Cupra-Book.woff") format("woff");
+    src: url("./fonts/Cupra-Book.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}

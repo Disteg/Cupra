@@ -1,0 +1,186 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+max-width: 320px;
+width: 100%;
+min-height: 100vh;
+height: auto;
+font-family: 'Cupra';
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+}
+
+
+.logo {
+    margin-left: 24px;}
+
+#sliders {
+        position: relative;
+        margin-top: 9px;
+        height: 300px;
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+        right: 0;
+
+}
+
+.slider {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 24.6px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+ 
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.TextContent {
+    text-align: left;
+    margin-top: 13.5px;
+    width: 279px;
+    height: 107px;
+}
+
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+.firstTextSlider {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Cupra';
+    font-weight: 700;
+}
+
+.firstTextSlider_big {
+    text-align: left;
+    font-size: 18px;
+}
+
+.secondTextSlider {font-size: 21px;}
+
+
+
+.imgIphone {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+    pointer-events: none;
+    position: relative;
+}
+
+
+
+.listContent {
+    position: absolute;
+    min-width: 320px;
+    display: flex;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.content {
+    max-width: 320px;
+    min-height: 480px;
+    position: absolute;
+    padding-top: 9px;
+    padding-bottom: 22px;
+    width: 320px;
+    max-height: 480px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+.popup {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: #FCFCFA;
+    box-sizing: inherit;
+}
+
+
+
+.buttonContent {
+    background-color: white;
+    margin-left: 24.5px;
+    margin-top: 36px;
+    width: 144px;
+    height: 36px;
+    font-size: 12px;
+    border: black 2px solid;
+    outline: none;
+    cursor: pointer;
+}
+
+.downText {
+    margin-left: 24.5px;
+    align-items: flex-end;
+    padding: 0;
+    font-size: 10px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.buttonPopup {
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+
+.open_popup {
+    display: block;
+}
+
+.popup_content {
+height: 100%;
+display: flex;
+width: 320px;
+height: 480px;
+align-items: center;
+justify-content: center;
+width: 100%;
+ height: 100vh;
+overflow: hidden;
+box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+.textPopup {
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    width:219px ;
+    height: 189px ;
+}
