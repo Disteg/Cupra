@@ -1,4 +1,7 @@
 
+/*Animation*/
+
+
 let slides = document.querySelectorAll('.slider');
 let  currentSlide = 0;
 let slideInterval = setInterval(nextSlide,5000);
@@ -10,12 +13,18 @@ function nextSlide() {
 }
 
 
-const buttonOpen = document.querySelector('.buttonPopup')
-const popup = document.querySelector('.popup');
+/*Popup*/
+
+const buttonlow = document.querySelector('.lowText');
+const closeButton = document.querySelector('.buttonClose');
+const popUp = document.querySelector('.popup');
 
 
-function OpenPopup() {
-   popup.classList.add('open_popup');
+function OpenPopup(){
+    popUp.classList.add('openPopUp');
 }
 
-buttonOpen.addEventListener('click', OpenPopup);
+function ClosePopup(){
+    popUp.classList.remove('openPopUp');
+}
+
