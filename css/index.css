@@ -85,7 +85,7 @@ div {
 
 
 .logo {
-    background: url('../../img/SliderOne/CUPRA_2020_COPPER_horizontal.svg')  no-repeat;
+    background: url('../img/SliderOne/CUPRA_2020_COPPER_horizontal.svg')  no-repeat;
     background-size: contain;
     width: 148px;
     height: 32px;
@@ -96,7 +96,7 @@ div {
 } 
 
 .imgCar {
-    background: url('../../img/SliderOne/IMG.svg') no-repeat;
+    background: url('../img/SliderOne/IMG.svg') no-repeat;
     width: 295px;
     height: 200px;
     top: 50.5px;

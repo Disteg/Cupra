@@ -13,11 +13,11 @@ function nextSlide() {
 }
 
 
-/*Popup*/
+/*Popup slider 1*/ 
 
-const buttonlow = document.querySelector('.lowText');
-const closeButton = document.querySelector('.buttonClose');
-const popUp = document.querySelector('.popup');
+let buttonlow = document.querySelectorAll('.lowText ')
+let closeButton = document.querySelector('.buttonClose');
+let popUp = document.querySelector('.popup');
 
 
 function OpenPopup(){
@@ -27,4 +27,10 @@ function OpenPopup(){
 function ClosePopup(){
     popUp.classList.remove('openPopUp');
 }
+
+buttonlow.forEach(item =>{
+    item.addEventListener('click', OpenPopup)
+  })
+
+closeButton.addEventListener('click', ClosePopup );
 
