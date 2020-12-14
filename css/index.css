@@ -1,30 +1,12 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts');
 
 * {
     padding: 0;
     margin: 0;
   }
 
-  @media screen and (max-width: 900px) {
-    body {
-      align-items: center;
-      justify-content: center;
-      background-color: white;
-    }
-    .phone__media {
-      display: none;
-    }
-    .container {
-      top: 0;
-      left: 0;
-    }
-    .phone {
-      width: 321px;
-      height: 481px;
-      top: 0;
-      left: 0;
-    }
-  }
+  
 
 html, body {
     width: 100%;
@@ -32,6 +14,7 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: center;
+    font-family: 'Cupra';
 }
 
 .phone {
@@ -197,3 +180,25 @@ div {
     left: 266px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 900px) {
+    body {
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+    }
+    .phone__media {
+      display: none;
+    }
+    .content {
+      top: 0;
+      left: 0;
+    }
+    .phone {
+      width: 321px;
+      height: 481px;
+      top: 0;
+      left: 0;
+    }
+  }
