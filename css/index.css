@@ -8,23 +8,23 @@
 
   @font-face {
     font-family: "Cupra";
-    src: url("../fonts/font/Cupra-Book.woff2") format("woff2");
-    src: url("../fonts/font/Cupra-Book.woff") format("woff");
-    src: url('../fonts/font/Cupra-Book.eot') format('eot');
+    src: url("../vendor/fonts/font/Cupra-Book.woff2") format("woff2");
+    src: url("../vendor/fonts/font/Cupra-Book.woff") format("woff");
+    src: url('../vendor/fonts/font/Cupra-Book.eot') format('eot');
     
 }
 @font-face {
     font-family: "Cupra";
-    src: url("../fonts/font/Cupra-Medium.woff2") format("woff2");
-    src: url("../fonts/font/Cupra-Medium.woff") format("woff");
-    src: url('../fonts/font/Cupra-Medium.eot') format('eot');
+    src: url("../vendor/fonts/font/Cupra-Medium.woff2") format("woff2");
+    src: url("../vendor/fonts/font/Cupra-Medium.woff") format("woff");
+    src: url('../vendor/fonts/font/Cupra-Medium.eot') format('eot');
     
 }
 @font-face {
     font-family: "Cupra";
-    src: url("../fonts/font/Cupra-Bold.woff2") format("woff2");
-    src: url("../fonts/font/Cupra-Bold.woff") format("woff");
-    src: url('../fonts/font/Cupra-Bold.eot') format('eot');
+    src: url("../vendor/fonts/font/Cupra-Bold.woff2") format("woff2");
+    src: url("../vendor/fonts/font/Cupra-Bold.woff") format("woff");
+    src: url('../vendor/fonts/font/Cupra-Bold.eot') format('eot');
     
 }
 
