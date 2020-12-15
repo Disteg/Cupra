@@ -79,7 +79,7 @@ div {
 } 
 
 .imgCar {
-    background: url('../img/SliderOne/IMG.svg') no-repeat;
+    background: url('../img/SliderOne/IMG.png') no-repeat;
     width: 295px;
     height: 200px;
     top: 50.5px;
@@ -127,7 +127,7 @@ div {
 /*Slider 2*/
 
 .imgCarTwo {
-    background: url('../img/SliderTwo/IMG.svg') no-repeat;
+    background: url('../img/SliderTwo/IMG.png') no-repeat;
     width: 295px;
     height: 200px;
     top: 50.5px;
@@ -147,7 +147,7 @@ div {
 
 
 .textOneThree {
-    background: url('../img/SliderThree/NewTe.svg');
+    background: url('../img/SliderThree/PartThree.svg');
     width: 279px;
     height: 107px;
     top: 263px;
