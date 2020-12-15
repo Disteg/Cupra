@@ -12,7 +12,7 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: center;
-    font-family: 'Cupra-Book';
+    font-family: "CupraBook";
 }
 
 .phone {
@@ -90,7 +90,7 @@ div {
     height: 36px ;
     top: 263px;
     left: 24.5px;
-    font-family: 'Cupra-Book';
+    font-family: "CupraBook";
 }
 
 .textTwo {
