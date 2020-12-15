@@ -16,7 +16,7 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: center;
-    font-family:'Cupra';
+    font-family: 'CupraBook', ' CupraMedium', 'CupraBold';
 }
 
 .phone {
@@ -94,7 +94,7 @@ div {
     height: 36px ;
     top: 263px;
     left: 24.5px;
-    font-family:'Cupra';
+   font-family: 'CupraBook';
     font-weight: bold;
 }
 
