@@ -87,20 +87,23 @@ div {
 }
 
 .textOne {
-    background: url('../img/SliderOne/TheNEW.svg');
+    position: absolute;
     width: 264px ;
     height: 36px ;
     top: 263px;
     left: 24.5px;
-    font-family:'Cupra-Book, Cupra';
+    font-family:'Cupra';
+    font-weight: bold;
 }
 
 .textTwo {
-    background: url('../img/SliderOne/Part.svg');
+    position: absolute;
     width: 243px;
     height: 25px;
     top: 319px;
     left: 24.5px;
+    font-family:'Cupra';
+    font-weight: normal;
     
 }
 
