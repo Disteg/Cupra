@@ -1,9 +1,5 @@
-@import url('../vendor/fonts/fonts.css');
-
-
-
-
-
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
 * {
     padding: 0;
     margin: 0;
@@ -16,7 +12,7 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: center;
-    font-family: 'CupraBook', ' CupraMedium', 'CupraBold';
+    font-family: 'Cupra-Book';
 }
 
 .phone {
@@ -94,7 +90,7 @@ div {
     height: 36px ;
     top: 263px;
     left: 24.5px;
-    font-weight: bold;
+    font-family: 'Cupra-Book';
 }
 
 .textTwo {
