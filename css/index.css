@@ -34,7 +34,7 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: center;
-    font-family: "Cupra";
+    font-family: 'Cupra';
 }
 
 .phone {
