@@ -2,18 +2,21 @@
     font-family: "Cupra";
     src: url("../fonts/font/Cupra-Book.woff2") format("woff2");
     src: url("../fonts/font/Cupra-Book.woff") format("woff");
-    font-style: book;
+    src: url('../fonts/font/Cupra-Book.eot') format('eot');
+    
 }
 @font-face {
     font-family: "Cupra";
     src: url("../fonts/font/Cupra-Medium.woff2") format("woff2");
     src: url("../fonts/font/Cupra-Medium.woff") format("woff");
-    font-style: medium;
+    src: url('../fonts/font/Cupra-Medium.eot') format('eot');
+    
 }
 @font-face {
     font-family: "Cupra";
     src: url("../fonts/font/Cupra-Bold.woff2") format("woff2");
     src: url("../fonts/font/Cupra-Bold.woff") format("woff");
-    font-style: bold;
+    src: url('../fonts/font/Cupra-Bold.eot') format('eot');
+    
 }
 
