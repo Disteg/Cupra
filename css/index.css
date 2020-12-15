@@ -194,6 +194,7 @@ div {
     background-color: white;
     z-index: 3;
     display: none;
+    font-family: "CupraBook";
 }
 
 .openPopUp {
