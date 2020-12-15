@@ -166,7 +166,7 @@ div {
 }
 
 .textTwoTwo {
-    background: url('../img/SliderTwo/PartTwo.svg');
+    background: url('../img/SliderTwo/PartTwo.svg') no-repeat;
     width: 243px;
     height: 48px;
     top: 319px;
@@ -178,7 +178,7 @@ div {
 
 
 .textOneThree {
-    background: url('../img/SliderThree/PartThree.svg');
+    background: url('../img/SliderThree/PartThree.svg') no-repeat;
     width: 279px;
     height: 107px;
     top: 263px;
@@ -201,7 +201,7 @@ div {
 }
 
 .textPopup {
-    background: url('../img/popup/FREEDOM.svg');
+    background: url('../img/popup/FREEDOM.svg') no-repeat;
     width: 219px;
     height: 189px ;
     top: 145.9px;
@@ -210,7 +210,7 @@ div {
 }
 
 .buttonClose {
-    background: url('../img/popup/X.svg');
+    background: url('../img/popup/X.svg') no-repeat;
     width: 12px;
     height: 22px;
     top: 15px;
