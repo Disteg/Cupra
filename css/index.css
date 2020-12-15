@@ -1,5 +1,5 @@
 @import url('../vendor/normalize.css');
-@import url('../vendor/fonts/fonts');
+@import url('../vendor/fonts/fonts.css');
 
 * {
     padding: 0;
@@ -14,7 +14,7 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: center;
-    font-family: 'Cupra';
+    font-family: "Cupra";
 }
 
 .phone {
