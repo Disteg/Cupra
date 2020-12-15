@@ -1,5 +1,37 @@
 @import url('../vendor/normalize.css');
-@import url('../vendor/fonts.css');
+
+@font-face {
+    font-family: "CupraBook";
+    src: url("../vendor/fonts/Cupra-Book.woff2")format("woff2"),
+            url("../vendor/fonts/Cupra-Book.woff")format("woff"),
+            url("../vendor/fonts/Cupra-Book.eot")format('eot'),
+            url("../vendor/fonts/Cupra-Book.ttf")format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: "CupraBook";
+    src: url("../vendor/fonts/Cupra-Medium.woff2")format("woff2"),
+    url("../vendor/fonts/Cupra-Medium.woff")format("woff"),
+    url("../vendor/fonts/Cupra-Medium.eot")format('eot'),
+    url("../vendor/fonts/Cupra-Medium.ttf")format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'CupraBook';
+    src: url("../vendor/fonts/Cupra-Bold.woff2")format("woff2"),
+    url("../vendor/fonts/Cupra-Bold.woff")format("woff"),
+    url("../vendor/fonts/Cupra-Bold.eot")format('eot'),
+    url("../vendor/fonts/Cupra-Bold.ttf")format('ttf');
+       font-weight: bold;
+    font-style: normal;
+    
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -67,7 +99,7 @@ div {
 
 
 .logo {
-    background: url('../img/SliderOne/CUPRA_2020_COPPER_horizontal.svg')  no-repeat;
+    background: url('../img/SliderOne/CUPRA_2020_COPPER_horizontal.png')  no-repeat;
     background-size: contain;
     width: 148px;
     height: 32px;
@@ -86,16 +118,15 @@ div {
 }
 
 .textOne {
-    position: absolute;
+    background: url('../img/SliderOne/e-HYBRID.svg') no-repeat;
     width: 264px ;
     height: 36px ;
     top: 263px;
     left: 24.5px;
-    font-family: "CupraBook";
 }
 
 .textTwo {
-    position: absolute;
+    background: url('../img/SliderOne/SPORTLICHE.svg') no-repeat;
     width: 243px;
     height: 25px;
     top: 319px;
@@ -105,7 +136,7 @@ div {
 }
 
 .buttonSlider {
-    background: url('../img/SliderOne/CTA.svg');
+    background: url('../img/SliderOne/buttonMehr.svg') no-repeat;
     width: 144px;
     height: 36px;
     top: 381px;
@@ -115,8 +146,8 @@ div {
 }
 
 .lowText {
-    background: url('../img/SliderOne/Legals.svg');
-    width: 220px ;
+    background: url('../img/SliderOne/DAT-Hinweis.svg') no-repeat;
+    width: 240px ;
     height: 25px ;
     top: 433px;
     left: 26.5px;
