@@ -7,21 +7,21 @@
   }
 
   @font-face {
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
     src: url("../vendor/fonts/font/Cupra-Book.woff2") format("woff2");
     src: url("../vendor/fonts/font/Cupra-Book.woff") format("woff");
     src: url('../vendor/fonts/font/Cupra-Book.eot') format('eot');
     
 }
 @font-face {
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
     src: url("../vendor/fonts/font/Cupra-Medium.woff2") format("woff2");
     src: url("../vendor/fonts/font/Cupra-Medium.woff") format("woff");
     src: url('../vendor/fonts/font/Cupra-Medium.eot') format('eot');
     
 }
 @font-face {
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
     src: url("../vendor/fonts/font/Cupra-Bold.woff2") format("woff2");
     src: url("../vendor/fonts/font/Cupra-Bold.woff") format("woff");
     src: url('../vendor/fonts/font/Cupra-Bold.eot') format('eot');
@@ -34,7 +34,7 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: center;
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
 }
 
 .phone {
@@ -68,7 +68,7 @@ div {
     top: 11.5%;
     margin: auto;
     background-color: white;
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
 }
 
 
@@ -113,7 +113,7 @@ div {
     height: 36px ;
     top: 263px;
     left: 24.5px;
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
 }
 
 .textTwo {
@@ -122,7 +122,7 @@ div {
     height: 25px;
     top: 319px;
     left: 24.5px;
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
 }
 
 .buttonSlider {
@@ -142,7 +142,7 @@ div {
     top: 433px;
     left: 26.5px;
     cursor: pointer;
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
 }
 
 /*Slider 2*/
@@ -161,7 +161,7 @@ div {
     height: 48px;
     top: 319px;
     left: 24.5px;
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
 }
 
 /*Slider 3*/
@@ -173,7 +173,7 @@ div {
     height: 107px;
     top: 263px;
     left: 24.5px;
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
 }
 
 /*Popup*/
@@ -196,7 +196,7 @@ div {
     height: 189px ;
     top: 145.9px;
     left: 50.5px;
-    font-family:"Cupra-Book, Cupra";
+    font-family:'Cupra-Book, Cupra';
 }
 
 .buttonClose {
@@ -214,7 +214,7 @@ div {
       align-items: center;
       justify-content: center;
       background-color: white;
-      font-family:"Cupra-Book, Cupra";
+      font-family:'Cupra-Book, Cupra';
     }
     .phone__media {
       display: none;
