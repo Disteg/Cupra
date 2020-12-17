@@ -242,6 +242,7 @@ div {
 
 @media screen and (max-width: 900px) {
     body {
+        position: absolute;
         min-width: 320px;
         width: 100%;
 		min-height: 100%;
@@ -262,11 +263,15 @@ div {
 
     }
     .phone {
-    min-width: 320px;
-    min-height: 100vh;
-    top: 0;
-    right: 0;
-    }
+        position: absolute;
+        min-width: 320px;
+        max-height: 100%;
+        height: 100%;
+       left: 0;
+        padding: 0;
+        
+        
+       }
   }
 
 
@@ -280,10 +285,14 @@ div {
     }
  
    .phone {
+    position: absolute;
     min-width: 320px;
-    max-height: 100vh;
-    top: 0;
-    left: 0;
+    max-height: 100%;
+    height: 100%;
+   left: 0;
+    padding: 0;
+    
+    
    }
 
     .phone__media {
@@ -292,9 +301,8 @@ div {
 
     .content {
         top: 0;
-        bottom: 0;
         width: auto;
-        height: auto;
+        min-height: 100vh;
         right: 0;
     }
 };
@@ -312,10 +320,15 @@ div {
     }
  
     .phone {
+        position: absolute;
         min-width: 320px;
-        min-height: 100vh;
-        top: 0;
-        left: 0;}
+        max-height: 100%;
+        height: 100%;
+       left: 0;
+        padding: 0;
+        
+        
+       }
 
     .phone__media {
         display: none;
@@ -326,7 +339,7 @@ div {
         bottom: 0;
         width: auto;
         height: auto;
-       right: 0;
+       left: 0;
     
   }
   }
