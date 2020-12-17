@@ -11,7 +11,7 @@
     
 }
 @font-face {
-    font-family: "CupraBook";
+    font-family: "CupraMedium";
     src: url("../vendor/fonts/Cupra-Medium.woff2")format("woff2"),
     url("../vendor/fonts/Cupra-Medium.woff")format("woff"),
     url("../vendor/fonts/Cupra-Medium.eot")format('eot'),
@@ -202,13 +202,11 @@ div {
 }
 
 .textPopup {
-    background: url('../img/popup/FREEDOM.svg') no-repeat;
     width: 219px;
     height: 189px ;
     top: 145.9px;
-    left: 50.5px;
+    left: 50.5px; }
     
-}
 
 .buttonClose {
     background: url('../img/popup/X.svg') no-repeat;
