@@ -101,7 +101,7 @@ div {
 
 
 .logo {
-    background: url('../img/SliderOne/CUPRA_2020_COPPER_horizontal.png')  no-repeat;
+    background: url('../img/SliderOne/CUPRA_2020_COPPER_horizontal.svg')  no-repeat;
     background-size: contain;
     width: 148px;
     height: 32px;
@@ -242,7 +242,8 @@ div {
 
 @media screen and (max-width: 900px) {
     body {
-        height: 100%;
+        min-width: 320px;
+        width: 100%;
 		min-height: 100%;
         overflow-y: auto;
         overflow-x: hidden;
@@ -253,63 +254,36 @@ div {
     }
 
     .content {
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
     width: auto;
     height:100%;
+
     }
     .phone {
-        max-width: 100%;
-    max-height: 100vh;
+    min-width: 320px;
+    min-height: 100vh;
     top: 0;
     right: 0;
     }
   }
 
 
-  @media screen and (max-width: 320px) {
-    body {
-        height: 100%;
-		min-height: 100%;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
- 
-    .phone {
-        max-width: 100%;
-        max-height: 100vh;
-        top: 0;
-        right: 0;}
-
-    .phone__media {
-        display: none;
-      }
-
-    .content {
-        top: 0;
-        bottom: 0;
-        width: auto;
-        height: auto;
-    
-  }
-  }
-
-
   @media screen and (max-width: 400px) {
     body {
-        height: auto;
+        min-width: 320px;
+        width: 100%;
 		min-height: 100%;
         overflow-y: auto;
         overflow-x: hidden;
     }
  
    .phone {
-    max-width: 100%;
+    min-width: 320px;
     max-height: 100vh;
     top: 0;
-    right: 0;
+    left: 0;
    }
 
     .phone__media {
@@ -321,5 +295,40 @@ div {
         bottom: 0;
         width: auto;
         height: auto;
+        right: 0;
     }
 };
+
+
+
+  @media screen and (max-width: 320px) {
+    body {
+        min-width: 320px;
+        width: 100%;
+		min-height: 100%;
+       
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+ 
+    .phone {
+        min-width: 320px;
+        min-height: 100vh;
+        top: 0;
+        left: 0;}
+
+    .phone__media {
+        display: none;
+      }
+
+    .content {
+        top: 0;
+        bottom: 0;
+        width: auto;
+        height: auto;
+       right: 0;
+    
+  }
+  }
+
+
