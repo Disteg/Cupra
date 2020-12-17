@@ -218,24 +218,16 @@ div {
 }
 
 
-@media screen and (max-width: 900px) {
-    body {
-      align-items: center;
-      justify-content: center;
-      background-color: white;
-      
-    }
-    .phone__media {
-      display: none;
-    }
-    .content {
-      top: 0;
-      left: 0;
-    }
-    .phone {
-      width: 321px;
-      height: 481px;
-      top: 0;
-      left: 0;
-    }
-  }
+@media screen and (max-width: 991px) {
+	body {
+		height: auto;
+		min-height: 100%;
+		overflow-y: auto;
+	}
+	.preview-wrap {
+		display: none;
+	}
+	.preview-wrap_mobile {
+		display: block;
+	}
+}
