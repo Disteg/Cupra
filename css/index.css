@@ -137,12 +137,16 @@ div {
     
 }
 
+.buttonposition {
+    top: 381px;
+    left: 25.5px;
+}
+
 .buttonSlider {
     background: url('../img/SliderOne/buttonMehr.svg') no-repeat;
     width: 144px;
     height: 36px;
-    top: 381px;
-    left: 25.5px;
+    
     cursor: pointer;
     border-bottom: none;
 }
@@ -154,8 +158,6 @@ div {
     bottom: 22px;
     left: 26.5px;
     cursor: pointer;
-
-    
 }
 
 /*Slider 2*/
