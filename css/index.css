@@ -26,7 +26,7 @@
     url("../vendor/fonts/Cupra-Bold.woff")format("woff"),
     url("../vendor/fonts/Cupra-Bold.eot")format('eot'),
     url("../vendor/fonts/Cupra-Bold.ttf")format('ttf');
-       font-weight: bold;
+    font-weight: bold;
     font-style: normal;
     
 }
@@ -38,13 +38,14 @@
   }
 
 
-html, body {
-    width: 100%;
-    background: white;
-    height: 100%;
+body {
     display: flex;
+    align-items: center;
     justify-content: center;
-    font-family: "CupraBook";
+    width: 100%;
+    height: 100vh;
+    background: white;
+    overflow: hidden;
 }
 
 
@@ -54,7 +55,7 @@ html, body {
     width: 361px;
     display: flex;
     justify-content: center;
-    top: 10%;
+    
 }
 
 
@@ -69,7 +70,7 @@ div {
     position: absolute;
   }
 
-.content {
+  .content {
     width: 320px;
     height: 480px;
     box-sizing: border-box;
@@ -83,9 +84,10 @@ div {
 
 
 
+
 .slider  {
-    width: 100%;
-    height: 100%;
+    width: 295,5px;
+    height: 316,5px;
     opacity: 0;
     z-index: 1;
     transition: 1s ease;
@@ -149,9 +151,10 @@ div {
     background: url('../img/SliderOne/DAT-Hinweis.svg') no-repeat;
     width: 240px ;
     height: 25px ;
-    top: 433px;
+    bottom: 22px;
     left: 26.5px;
     cursor: pointer;
+
     
 }
 
@@ -197,6 +200,22 @@ div {
     font-family: "CupraBook";
 }
 
+
+.a   {
+    fill:#313131;
+    font-size: 10px;
+    letter-spacing:0.045em;
+    }
+.b  {
+    font-size:5.833px;
+}
+.c  {
+    font-family: "CupraMedium";
+    font-weight:500;
+    text-decoration:underline;
+}
+
+
 .openPopUp {
     display: block;
 }
@@ -218,16 +237,89 @@ div {
 }
 
 
-@media screen and (max-width: 991px) {
-	body {
-		height: auto;
+
+
+
+@media screen and (max-width: 900px) {
+    body {
+        height: 100%;
 		min-height: 100%;
-		overflow-y: auto;
-	}
-	.preview-wrap {
-		display: none;
-	}
-	.preview-wrap_mobile {
-		display: block;
-	}
-}
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .phone__media {
+      display: none;
+    }
+
+    .content {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    width: auto;
+    height:100%;
+    }
+    .phone {
+        max-width: 100%;
+    max-height: 100vh;
+    top: 0;
+    right: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 320px) {
+    body {
+        height: 100%;
+		min-height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+ 
+    .phone {
+        max-width: 100%;
+        max-height: 100vh;
+        top: 0;
+        right: 0;}
+
+    .phone__media {
+        display: none;
+      }
+
+    .content {
+        top: 0;
+        bottom: 0;
+        width: auto;
+        height: auto;
+    
+  }
+  }
+
+
+  @media screen and (max-width: 400px) {
+    body {
+        height: auto;
+		min-height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+ 
+   .phone {
+    max-width: 100%;
+    max-height: 100vh;
+    top: 0;
+    right: 0;
+   }
+
+    .phone__media {
+        display: none;
+      }
+
+    .content {
+        top: 0;
+        bottom: 0;
+        width: auto;
+        height: auto;
+    }
+};
